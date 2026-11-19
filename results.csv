@@ -1,0 +1,11 @@
+Group,Method,Physics score,Scene identity,Local geometry,State persistence,Object persistence,Checklist,WER,Visual realism,Instruction following
+Direct generation,Direct generation,47.16,0.347,0.351,0.159,0.343,85.15,59.21,71.38,65.11
+Agentic video generation,Codex,53.18,0.575,0.583,0.520,0.587,89.72,25.73,72.21,68.05
+Agentic video generation,Claude,51.95,0.594,0.590,0.523,0.522,87.07,53.62,71.50,68.22
+Agentic video generation,Codex + VideoWeaver,55.11,0.739,0.705,0.646,0.665,90.88,23.58,71.83,67.60
+Agentic video generation,Claude + VideoWeaver,48.45,0.658,0.652,0.659,0.560,89.87,55.06,71.54,68.19
+Code2Video,Codex + Blender,59.49,0.936,0.840,0.743,0.860,88.52,22.30,67.29,64.51
+Code2Video,Claude + Blender,65.52,0.950,0.847,0.823,0.805,88.23,50.88,66.54,64.28
+Code2Video,VideoCoCo,59.37,0.931,0.853,0.696,0.829,83.67,27.11,66.28,61.61
+Code2Video,CodeVideoModel,53.86,0.932,0.878,0.708,0.953,84.75,20.74,64.88,61.50
+Code2Video,Coda-DaVinci (Ours),60.77,1.011,0.947,0.875,0.966,91.42,11.08,70.26,67.99
