@@ -8,7 +8,7 @@ Run `python3 -m http.server 8080` from this directory, then open `http://localho
 
 ## Publish to GitHub Pages
 
-Push this directory to the homepage repository's `main` branch. In **Settings → Pages**, select **Deploy from a branch**, `main`, and `/ (root)`.
+Push this directory to `https://github.com/Coda-DaVinci/Coda-DaVinci.github.io` on the `main` branch. In **Settings → Pages**, select **Deploy from a branch**, `main`, and `/ (root)`.
 
 ## Update
 
@@ -16,7 +16,7 @@ Push this directory to the homepage repository's `main` branch. In **Settings �
 - `app.js`: synchronized comparison playback, proxy switching, figure zoom, and citation copying.
 - `styles.css`: desktop and mobile styles.
 - `assets/`: compressed publication figures, real generated videos, proxies, and poster frames.
-- `results.csv`: main-table values from the paper.
+- `assets/main-results.png`: the main results table captured from the paper; the Results links jump to this figure.
 - `cases.json`: case prompts and media paths, also embedded into `index.html` for local viewing.
 
 The paper resource is marked forthcoming until its public URL is available. The Code link follows the paper's existing repository URL.
