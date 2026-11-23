@@ -47,6 +47,7 @@ function loadCase(index, keepTime = false) {
   const references = document.querySelector('#case-references');
   references.replaceChildren();
   references.hidden = !item.references?.length;
+  document.querySelector('.case-overview').classList.toggle('has-reference', Boolean(item.references?.length));
   (item.references || []).forEach(reference => {
     const figure = document.createElement('figure');
     const link = document.createElement('a');
