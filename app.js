@@ -44,11 +44,14 @@ function loadCase(index, keepTime = false) {
   document.querySelector('#case-title').textContent = item.title;
   document.querySelector('#case-description').textContent = item.description;
   document.querySelector('#case-prompt').textContent = item.prompt;
-  const hasProxies = methods.some(([key]) => item.videos[key].proxy);
+  const caseMethods = methods.filter(([key]) => item.videos[key]);
+  grid.classList.toggle('two-methods', caseMethods.length === 2);
+  const hasProxies = caseMethods.some(([key]) => item.videos[key].proxy);
+  proxyToggle.closest('label').hidden = !hasProxies;
   proxyToggle.disabled = !hasProxies;
   if (!hasProxies) proxyToggle.checked = false;
   grid.replaceChildren();
-  videos = methods.map(([key, label]) => {
+  videos = caseMethods.map(([key, label]) => {
     const media = item.videos[key];
     const proxy = proxyToggle.checked && media.proxy;
     const article = document.createElement('article');
@@ -83,7 +86,7 @@ function loadCase(index, keepTime = false) {
   });
   timeline.value = 0;
   document.querySelector('#time-label').textContent = '0:00 / 0:00';
-  document.querySelector('#case-note').textContent = proxyToggle.checked ? 'Seedance uses direct generation. Available 3D proxies are shown for the Code2Video methods.' : 'All three videos play from the same timestamp.';
+  document.querySelector('#case-note').textContent = proxyToggle.checked ? 'Seedance uses direct generation. Available 3D proxies are shown for the Code2Video methods.' : 'Videos play from the same timestamp.';
   videos[0].addEventListener('timeupdate', updateTime);
   videos.forEach(video => video.addEventListener('ended', pause));
 }

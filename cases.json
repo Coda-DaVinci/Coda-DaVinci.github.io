@@ -258,5 +258,41 @@
       }
     },
     "prompt": "A vast futuristic transit plaza, glowing circular portal structure, holographic sign to the left, sleek monorail track overhead, reflective ground, open sci-fi architecture, clear landmarks\n\nExecute one continuous 30-second camera trajectory. Initial camera position is the origin; x is initial camera-right, z is initial camera-forward, y is down. Keep camera height fixed. Positive yaw turns right. These are camera motions. Use the following time-indexed camera poses, interpolating smoothly. Preserve scene layout and object identities during departure and return.\n0.0s: x=0.000, z=0.000, yaw=0.00 deg\n0.5s: x=0.000, z=0.267, yaw=0.00 deg\n1.0s: x=0.000, z=0.533, yaw=0.00 deg\n1.5s: x=0.000, z=0.800, yaw=0.00 deg\n2.0s: x=0.000, z=1.117, yaw=0.00 deg\n2.5s: x=0.000, z=1.383, yaw=0.00 deg\n3.0s: x=0.000, z=1.650, yaw=0.00 deg\n3.5s: x=0.000, z=1.917, yaw=0.00 deg\n4.0s: x=0.000, z=2.233, yaw=0.00 deg\n4.5s: x=0.000, z=2.300, yaw=0.00 deg\n5.0s: x=0.000, z=2.033, yaw=0.00 deg\n5.5s: x=0.000, z=1.750, yaw=0.00 deg\n6.0s: x=0.000, z=1.450, yaw=0.00 deg\n6.5s: x=0.000, z=1.183, yaw=0.00 deg\n7.0s: x=0.000, z=0.917, yaw=0.00 deg\n7.5s: x=0.000, z=0.600, yaw=0.00 deg\n8.0s: x=0.000, z=0.333, yaw=0.00 deg\n8.5s: x=0.000, z=0.067, yaw=0.00 deg\n9.0s: x=0.000, z=0.000, yaw=-4.00 deg\n9.5s: x=0.000, z=0.000, yaw=-10.33 deg\n10.0s: x=0.000, z=0.000, yaw=-15.67 deg\n10.5s: x=0.000, z=0.000, yaw=-21.00 deg\n11.0s: x=0.000, z=0.000, yaw=-26.33 deg\n11.5s: x=0.000, z=0.000, yaw=-32.67 deg\n12.0s: x=0.000, z=0.000, yaw=-38.00 deg\n12.5s: x=0.000, z=0.000, yaw=-43.33 deg\n13.0s: x=0.000, z=0.000, yaw=-47.00 deg\n13.5s: x=0.000, z=0.000, yaw=-41.00 deg\n14.0s: x=0.000, z=0.000, yaw=-35.67 deg\n14.5s: x=0.000, z=0.000, yaw=-30.33 deg\n15.0s: x=0.000, z=0.000, yaw=-24.00 deg\n15.5s: x=0.000, z=0.000, yaw=-18.67 deg\n16.0s: x=0.000, z=0.000, yaw=-13.33 deg\n16.5s: x=0.000, z=0.000, yaw=-8.00 deg\n17.0s: x=0.000, z=0.000, yaw=-1.67 deg\n17.5s: x=0.000, z=0.000, yaw=3.67 deg\n18.0s: x=0.000, z=0.000, yaw=9.00 deg\n18.5s: x=0.000, z=0.000, yaw=14.33 deg\n19.0s: x=0.000, z=0.000, yaw=20.67 deg\n19.5s: x=0.000, z=0.000, yaw=26.00 deg\n20.0s: x=0.000, z=0.000, yaw=31.33 deg\n20.5s: x=0.000, z=0.000, yaw=37.00 deg\n21.0s: x=0.000, z=0.000, yaw=43.00 deg\n21.5s: x=0.000, z=0.000, yaw=47.00 deg\n22.0s: x=0.000, z=0.000, yaw=42.33 deg\n22.5s: x=0.000, z=0.000, yaw=36.00 deg\n23.0s: x=0.000, z=0.000, yaw=30.67 deg\n23.5s: x=0.000, z=0.000, yaw=25.33 deg\n24.0s: x=0.000, z=0.000, yaw=20.00 deg\n24.5s: x=0.000, z=0.000, yaw=13.67 deg\n25.0s: x=0.000, z=0.000, yaw=8.33 deg\n25.5s: x=0.000, z=0.000, yaw=3.00 deg\n26.0s: x=0.000, z=0.000, yaw=-2.33 deg\n26.5s: x=0.000, z=0.000, yaw=-8.67 deg\n27.0s: x=0.000, z=0.000, yaw=-14.00 deg\n27.5s: x=0.000, z=0.000, yaw=-19.33 deg\n28.0s: x=0.000, z=0.000, yaw=-25.00 deg\n28.5s: x=0.000, z=0.000, yaw=-31.00 deg\n29.0s: x=0.000, z=0.000, yaw=-36.33 deg\n29.5s: x=0.000, z=0.000, yaw=-41.67 deg\n30.0s: x=0.000, z=0.000, yaw=-48.00 deg\n\nGenerate one complete 30-second video, 720p, 16:9, without generated audio. Use the supplied initial image.\n"
+  },
+  {
+    "id": "long-explainer",
+    "caseId": "T2AV_039",
+    "kicker": "LongAV · Explainer",
+    "title": "A story across six events · 88 seconds",
+    "description": "LongAV-Compass: compare how the avatar and visual style carry through gameplay, chat evidence, and the closing recap.",
+    "prompt": "The video starts with a title card displaying 'Snunt Drama Explained In 1 Minute' on top of active gameplay from a blocky-style online platform. The title has an animation as it appears. The scene switches to what looks like gameplay from a blocky-style online platform. An overlayed text box with a title such as 'The Beginning' shows up as the narrator details the story's start. The 'Snunt' avatar may be visible in the gameplay. The screen might use a split-screen effect or transition to display screenshots from social media or chat conversations about the drama. Key text sections are highlighted or magnified as the narrator mentions them. The video cuts back to more intense or pertinent gameplay from a blocky-style online platform. A big, bold text overlay saying 'EXPOSED' or summarizing the main charge is displayed on the screen. A brief montage of the gameplay and evidence shown earlier is presented as the narrator recaps the events. A final statement may be shown as text on the screen. The display changes to a typical end screen for a video-sharing platform. It shows a 'Like and Subscribe' prompt with animated icons and may include thumbnails for other videos.",
+    "videos": {
+      "direct": {
+        "final": "assets/long-explainer-direct.mp4",
+        "poster": "assets/long-explainer-direct.webp"
+      },
+      "harness": {
+        "final": "assets/long-explainer-harness.mp4",
+        "poster": "assets/long-explainer-harness.webp"
+      }
+    }
+  },
+  {
+    "id": "long-park",
+    "caseId": "WBench_92",
+    "kicker": "WBench · Park",
+    "title": "An autumn park across four camera moves · 20 seconds",
+    "description": "WBench: move forward, right, backward, and left. Follow the wooden bench and park layout through the sequence.",
+    "prompt": "## Initial environment\nAn autumn park with golden and red maple trees lining a gravel path. Scattered maple leaves cover the ground in warm orange and red. A wooden bench sits under a large maple tree on the right side. A small pond reflecting autumn colors and a footbridge are visible in the background. Soft warm afternoon light. Ahead past the footbridge, a gazebo with a copper weathervane stands on the far bank of the pond. To the right beyond the bench, a stone drinking fountain and a wrought-iron lamp post mark a path junction. To the left, a garden bed of chrysanthemums in yellow and burgundy borders a low stone wall, and a squirrel perches on a gnarled tree root.\n\n## Subjects\nFirst-person viewer.\n\n## Initial perspective\nFirst-person view at eye level looking down the leaf-strewn gravel path toward the pond and footbridge. No held objects.\n\nImage1 is the original initial image. WBench navigation controls: W/S translate forward/backward; A/D strafe left/right while retaining heading; left/right (or ←/→) turn yaw left/right in place; up/down (or ↑/↓) tilt pitch up/down; stop holds position and orientation. Combine keys joined by + simultaneously. Apply each action relative to the current accumulated position and orientation. Preserve the latest state in following rounds. Do not reset to the initial state.\n\nGeneration settings: 720p, 16:9, no audio. This is generation only; do not run a judge or numerical rubric.\n\nTurn 1: type: navigation\naction: W\n\nTurn 2: type: navigation\naction: D\n\nTurn 3: type: navigation\naction: S\n\nTurn 4: type: navigation\naction: A",
+    "videos": {
+      "direct": {
+        "final": "assets/long-park-direct.mp4",
+        "poster": "assets/long-park-direct.webp"
+      },
+      "harness": {
+        "final": "assets/long-park-harness.mp4",
+        "poster": "assets/long-park-harness.webp"
+      }
+    }
   }
 ]
