@@ -3,17 +3,17 @@
     "id": "long-runner",
     "caseId": "I2AV_024",
     "kicker": "Runner",
-    "title": "A runner and a car across five events · 71 seconds",
-    "description": "Follow the athlete from the starting blocks to the roadside meeting. Compare his appearance and clothing across shots.",
+    "title": "A runner and a car · 63 seconds",
+    "description": "Follow the athlete through the sprint and the roadside meeting. Compare his appearance and clothing across shots.",
     "prompt": "一部电影质感的汽车品牌宣传片。开场，一名男性运动员在红色跑道上呈起跑预备姿势，画面充满张力。随着他爆发性地冲出，镜头以动态跟拍和慢动作捕捉其充满力量的跑动姿态。接着，一辆线条流畅的现代电动汽车无声地出现在旁边的公路上，与他并驾齐驱，车内是一位干练的女性驾驶员。核心互动发生：运动员向汽车投去挑战的微笑并加速，女驾驶员则心领神会地用加速来回应，形成一场人与机器的友好竞赛。最终，运动员在终点放慢脚步，而汽车已在前方等候。他跑到副驾旁，车窗滑下，两人相视一笑，充满默契。全片光影考究，色调冷峻而高级，运镜流畅，旨在传递极致性能与人机共鸣的品牌理念。",
     "videos": {
       "direct": {
-        "final": "assets/long-runner-direct.mp4",
-        "poster": "assets/long-runner-direct.webp"
+        "final": "assets/long-runner-direct-8s.mp4",
+        "poster": "assets/long-runner-direct-8s.webp"
       },
       "harness": {
-        "final": "assets/long-runner-harness.mp4",
-        "poster": "assets/long-runner-harness.webp"
+        "final": "assets/long-runner-harness-8s.mp4",
+        "poster": "assets/long-runner-harness-8s.webp"
       }
     },
     "references": [
