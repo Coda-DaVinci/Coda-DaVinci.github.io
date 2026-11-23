@@ -21,4 +21,4 @@ Push this directory to `https://github.com/Coda-DaVinci/Coda-DaVinci.github.io` 
 
 The Paper link opens https://arxiv.org/abs/2611.26595. The Code link follows the paper's existing repository URL.
 
-Long-video examples include the complete concatenated sequences from LongAV-Compass T2AV_039 (88 seconds) and WBench_92 (20 seconds), comparing Seedance direct generation with Coda-DaVinci.
+Long-video examples include the complete concatenated sequences from LongAV-Compass I2AV_024 (71 seconds), WBench_92 (20 seconds), and WBench_277 (20 seconds), comparing Seedance direct generation with Coda-DaVinci.

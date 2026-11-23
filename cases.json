@@ -260,20 +260,20 @@
     "prompt": "A vast futuristic transit plaza, glowing circular portal structure, holographic sign to the left, sleek monorail track overhead, reflective ground, open sci-fi architecture, clear landmarks\n\nExecute one continuous 30-second camera trajectory. Initial camera position is the origin; x is initial camera-right, z is initial camera-forward, y is down. Keep camera height fixed. Positive yaw turns right. These are camera motions. Use the following time-indexed camera poses, interpolating smoothly. Preserve scene layout and object identities during departure and return.\n0.0s: x=0.000, z=0.000, yaw=0.00 deg\n0.5s: x=0.000, z=0.267, yaw=0.00 deg\n1.0s: x=0.000, z=0.533, yaw=0.00 deg\n1.5s: x=0.000, z=0.800, yaw=0.00 deg\n2.0s: x=0.000, z=1.117, yaw=0.00 deg\n2.5s: x=0.000, z=1.383, yaw=0.00 deg\n3.0s: x=0.000, z=1.650, yaw=0.00 deg\n3.5s: x=0.000, z=1.917, yaw=0.00 deg\n4.0s: x=0.000, z=2.233, yaw=0.00 deg\n4.5s: x=0.000, z=2.300, yaw=0.00 deg\n5.0s: x=0.000, z=2.033, yaw=0.00 deg\n5.5s: x=0.000, z=1.750, yaw=0.00 deg\n6.0s: x=0.000, z=1.450, yaw=0.00 deg\n6.5s: x=0.000, z=1.183, yaw=0.00 deg\n7.0s: x=0.000, z=0.917, yaw=0.00 deg\n7.5s: x=0.000, z=0.600, yaw=0.00 deg\n8.0s: x=0.000, z=0.333, yaw=0.00 deg\n8.5s: x=0.000, z=0.067, yaw=0.00 deg\n9.0s: x=0.000, z=0.000, yaw=-4.00 deg\n9.5s: x=0.000, z=0.000, yaw=-10.33 deg\n10.0s: x=0.000, z=0.000, yaw=-15.67 deg\n10.5s: x=0.000, z=0.000, yaw=-21.00 deg\n11.0s: x=0.000, z=0.000, yaw=-26.33 deg\n11.5s: x=0.000, z=0.000, yaw=-32.67 deg\n12.0s: x=0.000, z=0.000, yaw=-38.00 deg\n12.5s: x=0.000, z=0.000, yaw=-43.33 deg\n13.0s: x=0.000, z=0.000, yaw=-47.00 deg\n13.5s: x=0.000, z=0.000, yaw=-41.00 deg\n14.0s: x=0.000, z=0.000, yaw=-35.67 deg\n14.5s: x=0.000, z=0.000, yaw=-30.33 deg\n15.0s: x=0.000, z=0.000, yaw=-24.00 deg\n15.5s: x=0.000, z=0.000, yaw=-18.67 deg\n16.0s: x=0.000, z=0.000, yaw=-13.33 deg\n16.5s: x=0.000, z=0.000, yaw=-8.00 deg\n17.0s: x=0.000, z=0.000, yaw=-1.67 deg\n17.5s: x=0.000, z=0.000, yaw=3.67 deg\n18.0s: x=0.000, z=0.000, yaw=9.00 deg\n18.5s: x=0.000, z=0.000, yaw=14.33 deg\n19.0s: x=0.000, z=0.000, yaw=20.67 deg\n19.5s: x=0.000, z=0.000, yaw=26.00 deg\n20.0s: x=0.000, z=0.000, yaw=31.33 deg\n20.5s: x=0.000, z=0.000, yaw=37.00 deg\n21.0s: x=0.000, z=0.000, yaw=43.00 deg\n21.5s: x=0.000, z=0.000, yaw=47.00 deg\n22.0s: x=0.000, z=0.000, yaw=42.33 deg\n22.5s: x=0.000, z=0.000, yaw=36.00 deg\n23.0s: x=0.000, z=0.000, yaw=30.67 deg\n23.5s: x=0.000, z=0.000, yaw=25.33 deg\n24.0s: x=0.000, z=0.000, yaw=20.00 deg\n24.5s: x=0.000, z=0.000, yaw=13.67 deg\n25.0s: x=0.000, z=0.000, yaw=8.33 deg\n25.5s: x=0.000, z=0.000, yaw=3.00 deg\n26.0s: x=0.000, z=0.000, yaw=-2.33 deg\n26.5s: x=0.000, z=0.000, yaw=-8.67 deg\n27.0s: x=0.000, z=0.000, yaw=-14.00 deg\n27.5s: x=0.000, z=0.000, yaw=-19.33 deg\n28.0s: x=0.000, z=0.000, yaw=-25.00 deg\n28.5s: x=0.000, z=0.000, yaw=-31.00 deg\n29.0s: x=0.000, z=0.000, yaw=-36.33 deg\n29.5s: x=0.000, z=0.000, yaw=-41.67 deg\n30.0s: x=0.000, z=0.000, yaw=-48.00 deg\n\nGenerate one complete 30-second video, 720p, 16:9, without generated audio. Use the supplied initial image.\n"
   },
   {
-    "id": "long-explainer",
-    "caseId": "T2AV_039",
-    "kicker": "Explainer",
-    "title": "A story across six events · 88 seconds",
-    "description": "LongAV-Compass: compare how the avatar and visual style carry through gameplay, chat evidence, and the closing recap.",
-    "prompt": "The video starts with a title card displaying 'Snunt Drama Explained In 1 Minute' on top of active gameplay from a blocky-style online platform. The title has an animation as it appears. The scene switches to what looks like gameplay from a blocky-style online platform. An overlayed text box with a title such as 'The Beginning' shows up as the narrator details the story's start. The 'Snunt' avatar may be visible in the gameplay. The screen might use a split-screen effect or transition to display screenshots from social media or chat conversations about the drama. Key text sections are highlighted or magnified as the narrator mentions them. The video cuts back to more intense or pertinent gameplay from a blocky-style online platform. A big, bold text overlay saying 'EXPOSED' or summarizing the main charge is displayed on the screen. A brief montage of the gameplay and evidence shown earlier is presented as the narrator recaps the events. A final statement may be shown as text on the screen. The display changes to a typical end screen for a video-sharing platform. It shows a 'Like and Subscribe' prompt with animated icons and may include thumbnails for other videos.",
+    "id": "long-runner",
+    "caseId": "I2AV_024",
+    "kicker": "Runner",
+    "title": "A runner and a car across five events · 71 seconds",
+    "description": "Follow the athlete from the starting blocks to the roadside meeting. Compare his appearance and clothing across shots.",
+    "prompt": "一部电影质感的汽车品牌宣传片。开场，一名男性运动员在红色跑道上呈起跑预备姿势，画面充满张力。随着他爆发性地冲出，镜头以动态跟拍和慢动作捕捉其充满力量的跑动姿态。接着，一辆线条流畅的现代电动汽车无声地出现在旁边的公路上，与他并驾齐驱，车内是一位干练的女性驾驶员。核心互动发生：运动员向汽车投去挑战的微笑并加速，女驾驶员则心领神会地用加速来回应，形成一场人与机器的友好竞赛。最终，运动员在终点放慢脚步，而汽车已在前方等候。他跑到副驾旁，车窗滑下，两人相视一笑，充满默契。全片光影考究，色调冷峻而高级，运镜流畅，旨在传递极致性能与人机共鸣的品牌理念。",
     "videos": {
       "direct": {
-        "final": "assets/long-explainer-direct.mp4",
-        "poster": "assets/long-explainer-direct.webp"
+        "final": "assets/long-runner-direct.mp4",
+        "poster": "assets/long-runner-direct.webp"
       },
       "harness": {
-        "final": "assets/long-explainer-harness.mp4",
-        "poster": "assets/long-explainer-harness.webp"
+        "final": "assets/long-runner-harness.mp4",
+        "poster": "assets/long-runner-harness.webp"
       }
     }
   },
@@ -292,6 +292,24 @@
       "harness": {
         "final": "assets/long-park-harness.mp4",
         "poster": "assets/long-park-harness.webp"
+      }
+    }
+  },
+  {
+    "id": "long-fire",
+    "caseId": "WBench_277",
+    "kicker": "Fire rescue",
+    "title": "Breaking through a burning doorway · 20 seconds",
+    "description": "Two axe strikes, a kick, and a fire hose: follow the damage to the door and the smoke as the rescue unfolds.",
+    "prompt": "## Initial environment\nA smoke-filled apartment corridor interior. Smoke-blackened walls, a closed brown wooden door directly ahead with orange firelight seeping from underneath. A red emergency light flashing on the ceiling. Shallow water puddles on the floor reflecting flickering light. Dark, hazardous atmosphere. Behind the door, a room engulfed in flames with burning furniture and thick black smoke. A fire hose line runs along the corridor floor behind the viewer, connected to a standpipe.\n\n## Subjects\nFirst-person viewer.\n\n## Initial perspective\nFirst-person view, eye-level, looking straight ahead down the corridor at the closed door. The viewer's hands in firefighter gloves grip a fire axe in the foreground.\n\nImage1 is the original initial image. WBench navigation controls: W/S translate forward/backward; A/D strafe left/right while retaining heading; left/right (or ←/→) turn yaw left/right in place; up/down (or ↑/↓) tilt pitch up/down; stop holds position and orientation. Combine keys joined by + simultaneously. Apply each action relative to the current accumulated position and orientation. Preserve the latest state in following rounds. Do not reset to the initial state.\n\nGeneration settings: 720p, 16:9, no audio. This is generation only; do not run a judge or numerical rubric.\n\nTurn 1: type: subject_action\naction: Swing the fire axe overhead and strike the closed wooden door.\n\nTurn 2: type: subject_action\naction: Swing the axe again, splitting the door and creating a visible hole.\n\nTurn 3: type: subject_action\naction: Kick the damaged door open with one foot, and thick smoke rushes out from inside.\n\nTurn 4: type: subject_action\naction: Draw a fire hose nozzle and spray a water jet through the doorway toward the fire inside.",
+    "videos": {
+      "direct": {
+        "final": "assets/long-fire-direct.mp4",
+        "poster": "assets/long-fire-direct.webp"
+      },
+      "harness": {
+        "final": "assets/long-fire-harness.mp4",
+        "poster": "assets/long-fire-harness.webp"
       }
     }
   }
