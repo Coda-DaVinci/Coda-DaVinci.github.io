@@ -1,10 +1,10 @@
 # Coda-DaVinci project page
 
-Static project homepage with real experiment videos, proxy comparisons, paper figures, and the main benchmark table.
+Static project homepage with ten real experiment video comparisons, corresponding proxies, paper figures, and the main benchmark table.
 
 ## Preview
 
-Run `python3 -m http.server 8080` from this directory, then open `http://localhost:8080`.
+Install `RangeHTTPServer` with `python3 -m pip install RangeHTTPServer`, then run `python3 -m RangeHTTPServer --bind 127.0.0.1 8080` from this directory and open `http://localhost:8080`. This serves byte-range requests for video seeking.
 
 ## Publish to GitHub Pages
 
@@ -19,4 +19,4 @@ Push this directory to `https://github.com/Coda-DaVinci/Coda-DaVinci.github.io` 
 - `assets/main-results.png`: the main results table captured from the paper; the Results links jump to this figure.
 - `cases.json`: case prompts and media paths, also embedded into `index.html` for local viewing.
 
-The paper resource is marked forthcoming until its public URL is available. The Code link follows the paper's existing repository URL.
+The Paper link opens https://arxiv.org/abs/2611.26595. The Code link follows the paper's existing repository URL.
