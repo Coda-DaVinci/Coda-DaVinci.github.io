@@ -44,6 +44,25 @@ function loadCase(index, keepTime = false) {
   document.querySelector('#case-title').textContent = item.title;
   document.querySelector('#case-description').textContent = item.description;
   document.querySelector('#case-prompt').textContent = item.prompt;
+  const references = document.querySelector('#case-references');
+  references.replaceChildren();
+  references.hidden = !item.references?.length;
+  (item.references || []).forEach(reference => {
+    const figure = document.createElement('figure');
+    const link = document.createElement('a');
+    link.href = reference.image;
+    link.target = '_blank';
+    link.rel = 'noopener';
+    link.title = 'Open reference image';
+    const image = document.createElement('img');
+    image.src = reference.image;
+    image.alt = `${item.title}: ${reference.label}`;
+    const caption = document.createElement('figcaption');
+    caption.textContent = reference.label;
+    link.append(image);
+    figure.append(link, caption);
+    references.append(figure);
+  });
   const caseMethods = methods.filter(([key]) => item.videos[key]);
   grid.classList.toggle('two-methods', caseMethods.length === 2);
   const hasProxies = caseMethods.some(([key]) => item.videos[key].proxy);

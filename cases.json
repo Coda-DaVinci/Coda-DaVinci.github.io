@@ -1,5 +1,29 @@
 [
   {
+    "id": "long-runner",
+    "caseId": "I2AV_024",
+    "kicker": "Runner",
+    "title": "A runner and a car across five events · 71 seconds",
+    "description": "Follow the athlete from the starting blocks to the roadside meeting. Compare his appearance and clothing across shots.",
+    "prompt": "一部电影质感的汽车品牌宣传片。开场，一名男性运动员在红色跑道上呈起跑预备姿势，画面充满张力。随着他爆发性地冲出，镜头以动态跟拍和慢动作捕捉其充满力量的跑动姿态。接着，一辆线条流畅的现代电动汽车无声地出现在旁边的公路上，与他并驾齐驱，车内是一位干练的女性驾驶员。核心互动发生：运动员向汽车投去挑战的微笑并加速，女驾驶员则心领神会地用加速来回应，形成一场人与机器的友好竞赛。最终，运动员在终点放慢脚步，而汽车已在前方等候。他跑到副驾旁，车窗滑下，两人相视一笑，充满默契。全片光影考究，色调冷峻而高级，运镜流畅，旨在传递极致性能与人机共鸣的品牌理念。",
+    "videos": {
+      "direct": {
+        "final": "assets/long-runner-direct.mp4",
+        "poster": "assets/long-runner-direct.webp"
+      },
+      "harness": {
+        "final": "assets/long-runner-harness.mp4",
+        "poster": "assets/long-runner-harness.webp"
+      }
+    },
+    "references": [
+      {
+        "image": "assets/long-runner-reference-1.jpg",
+        "label": "Reference image"
+      }
+    ]
+  },
+  {
     "id": "rice",
     "caseId": "T2AV_0453",
     "kicker": "Rice roll",
@@ -23,7 +47,8 @@
         "proxyPoster": "assets/rice-harness-proxy.webp"
       }
     },
-    "prompt": "A close-up, high-angle shot at a bustling street food stall focuses on a food vendor's hands preparing a traditional Asian snack. The vendor, wearing a yellow floral shirt, expertly uses a knife to slice a cylindrical sticky rice cake, which is wrapped in a vibrant green banana leaf, in half on a stainless steel counter. She then skillfully folds back the banana leaf to reveal the cross-section of the white sticky rice with a piece of banana in the center, presenting it neatly. The scene is captured in a realistic, documentary food-vlogging style, with natural, bright daylight and saturated colors. The camera maintains a slight shake, focusing on the intricate details of the food preparation."
+    "prompt": "A close-up, high-angle shot at a bustling street food stall focuses on a food vendor's hands preparing a traditional Asian snack. The vendor, wearing a yellow floral shirt, expertly uses a knife to slice a cylindrical sticky rice cake, which is wrapped in a vibrant green banana leaf, in half on a stainless steel counter. She then skillfully folds back the banana leaf to reveal the cross-section of the white sticky rice with a piece of banana in the center, presenting it neatly. The scene is captured in a realistic, documentary food-vlogging style, with natural, bright daylight and saturated colors. The camera maintains a slight shake, focusing on the intricate details of the food preparation.",
+    "references": []
   },
   {
     "id": "concrete",
@@ -49,7 +74,8 @@
         "proxyPoster": "assets/concrete-harness-proxy.webp"
       }
     },
-    "prompt": "Cinematic medium shot from a low-angle inside a ready-mix concrete plant. A worker in a safety vest and hard hat meticulously performs a slump test beside a slowly rotating mixer drum. He lifts a metal cone, allowing the fresh concrete to slump and spread across a steel plate. The shot emphasizes the incredibly detailed, wet texture of the concrete as natural morning light reflects off its glistening surface. A shallow depth of field isolates the action, blurring the industrial backdrop into soft focus. The color palette consists of neutral grays and silvers, accented by the worker's orange vest."
+    "prompt": "Cinematic medium shot from a low-angle inside a ready-mix concrete plant. A worker in a safety vest and hard hat meticulously performs a slump test beside a slowly rotating mixer drum. He lifts a metal cone, allowing the fresh concrete to slump and spread across a steel plate. The shot emphasizes the incredibly detailed, wet texture of the concrete as natural morning light reflects off its glistening surface. A shallow depth of field isolates the action, blurring the industrial backdrop into soft focus. The color palette consists of neutral grays and silvers, accented by the worker's orange vest.",
+    "references": []
   },
   {
     "id": "leaves",
@@ -75,7 +101,13 @@
         "proxyPoster": "assets/leaves-harness-proxy.webp"
       }
     },
-    "prompt": "A person uses an orange leaf blower to clear brown, dry leaves from white-painted concrete steps with green treads. The blower's black nozzle directs a strong airstream, lifting and scattering the leaves across the surface. The green power cord snakes up the stairs, and sunlight casts sharp shadows. Leaves tumble down in gusts, revealing clean areas as the device moves methodically. The operator adjusts grip and angle, demonstrating controlled motion against friction and gravity.\n\nMBench-A camera condition: right_then_left_25s.\nGenerate one continuous 25-second video starting from the supplied original image. 0–10s: rotate the camera in place to the right until the initially visible target or scene region fully leaves the field of view. 10–15s: hold this camera pose while the target remains out of view. 15–25s: rotate to the left along the exact reverse angular path, ending at the original viewpoint and framing. Keep camera position, pitch, roll and focal length fixed throughout. Use a sufficient yaw amplitude to achieve full departure, record the chosen angle in the shot manifest, and use the same amplitude on return. These directions control the camera. Subjects continue the original described activity. Preserve identities and environment geometry across the unseen interval; ongoing causal events advance while offscreen. Use a continuous shot with the requested visual style."
+    "prompt": "A person uses an orange leaf blower to clear brown, dry leaves from white-painted concrete steps with green treads. The blower's black nozzle directs a strong airstream, lifting and scattering the leaves across the surface. The green power cord snakes up the stairs, and sunlight casts sharp shadows. Leaves tumble down in gusts, revealing clean areas as the device moves methodically. The operator adjusts grip and angle, demonstrating controlled motion against friction and gravity.\n\nMBench-A camera condition: right_then_left_25s.\nGenerate one continuous 25-second video starting from the supplied original image. 0–10s: rotate the camera in place to the right until the initially visible target or scene region fully leaves the field of view. 10–15s: hold this camera pose while the target remains out of view. 15–25s: rotate to the left along the exact reverse angular path, ending at the original viewpoint and framing. Keep camera position, pitch, roll and focal length fixed throughout. Use a sufficient yaw amplitude to achieve full departure, record the chosen angle in the shot manifest, and use the same amplitude on return. These directions control the camera. Subjects continue the original described activity. Preserve identities and environment geometry across the unseen interval; ongoing causal events advance while offscreen. Use a continuous shot with the requested visual style.",
+    "references": [
+      {
+        "image": "assets/leaves-reference-1.png",
+        "label": "Reference image"
+      }
+    ]
   },
   {
     "id": "dough",
@@ -101,7 +133,8 @@
         "proxyPoster": "assets/dough-harness-proxy.webp"
       }
     },
-    "prompt": "A static close-up shot captures a pair of hands, adorned with a glossy baby pink manicure, rhythmically slapping and flattening a soft, pliable ball of pink dough on a clean, matte pink surface. The scene is illuminated by bright, even studio lighting, creating a minimalist and aesthetically pleasing look. Positioned neatly above the dough are several delicate, sky-blue paper doilies with intricate picot edges. The entire action unfolds in a hypnotic fast-motion, time-lapse style."
+    "prompt": "A static close-up shot captures a pair of hands, adorned with a glossy baby pink manicure, rhythmically slapping and flattening a soft, pliable ball of pink dough on a clean, matte pink surface. The scene is illuminated by bright, even studio lighting, creating a minimalist and aesthetically pleasing look. Positioned neatly above the dough are several delicate, sky-blue paper doilies with intricate picot edges. The entire action unfolds in a hypnotic fast-motion, time-lapse style.",
+    "references": []
   },
   {
     "id": "wheelchair",
@@ -127,7 +160,8 @@
         "proxyPoster": "assets/wheelchair-harness-proxy.webp"
       }
     },
-    "prompt": "Cinematic, heartwarming style. On a sun-dappled park pathway in autumn, an elderly man with a kind, weathered face, dressed in a comfortable gray sweater, smoothly navigates in his electric wheelchair. A small, scruffy terrier with a happily wagging tail excitedly trots up to him and stops in his path. The man gently halts his wheelchair, a warm smile spreading across his face as he reaches down to affectionately scratch the dog behind its ears. The scene is shot with a shallow depth of field and bathed in warm, golden lighting."
+    "prompt": "Cinematic, heartwarming style. On a sun-dappled park pathway in autumn, an elderly man with a kind, weathered face, dressed in a comfortable gray sweater, smoothly navigates in his electric wheelchair. A small, scruffy terrier with a happily wagging tail excitedly trots up to him and stops in his path. The man gently halts his wheelchair, a warm smile spreading across his face as he reaches down to affectionately scratch the dog behind its ears. The scene is shot with a shallow depth of field and bathed in warm, golden lighting.",
+    "references": []
   },
   {
     "id": "dumplings",
@@ -153,7 +187,8 @@
         "proxyPoster": "assets/dumplings-harness-proxy.webp"
       }
     },
-    "prompt": "Cinematic photorealistic style. In a majestic courtyard within the Forbidden City, bathed in the soft, warm light of a late afternoon sun, a steaming porcelain bowl filled with perfectly pleated, glistening dumplings rests on an antique lacquered wooden table. The scene is opulent with imperial red walls and golden-tiled roofs. The camera begins with an elegant medium wide shot, then executes a slow, deliberate push-in, transitioning to an extreme close-up on the dumplings. A shallow depth of field renders every delicate fold in crisp, hyper-realistic detail while the magnificent architecture blurs into a soft, atmospheric background."
+    "prompt": "Cinematic photorealistic style. In a majestic courtyard within the Forbidden City, bathed in the soft, warm light of a late afternoon sun, a steaming porcelain bowl filled with perfectly pleated, glistening dumplings rests on an antique lacquered wooden table. The scene is opulent with imperial red walls and golden-tiled roofs. The camera begins with an elegant medium wide shot, then executes a slow, deliberate push-in, transitioning to an extreme close-up on the dumplings. A shallow depth of field renders every delicate fold in crisp, hyper-realistic detail while the magnificent architecture blurs into a soft, atmospheric background.",
+    "references": []
   },
   {
     "id": "cockpit",
@@ -179,7 +214,8 @@
         "proxyPoster": "assets/cockpit-harness-proxy.webp"
       }
     },
-    "prompt": "In a photorealistic CGI style, the tense interior of a futuristic spacecraft cockpit is bathed in cool blue light from glowing control panels. A Black male pilot, wearing a flight harness, has an agitated and stressed face. The scene cuts between a close-up of his face and a profile shot of his focused, blonde female co-pilot."
+    "prompt": "In a photorealistic CGI style, the tense interior of a futuristic spacecraft cockpit is bathed in cool blue light from glowing control panels. A Black male pilot, wearing a flight harness, has an agitated and stressed face. The scene cuts between a close-up of his face and a profile shot of his focused, blonde female co-pilot.",
+    "references": []
   },
   {
     "id": "keyboard",
@@ -205,7 +241,8 @@
         "proxyPoster": "assets/keyboard-harness-proxy.webp"
       }
     },
-    "prompt": "A bright studio workspace features an ergonomic split keyboard with two angled halves and a central module. A designer uses a small hex tool to adjust the key module positions, while a writer sits across and types a long passage. The keyboard base has an engraved badge. A tablet mounted on a stand shows a layout diagram of the keyboard with annotations and a measurement readout. On the desk, a configuration card lists the keyboard's ergonomic settings and warranty details. Text on keyboard badge (engraved) reads exactly: \"SPLITFORM PRO\nAdjustable split keyboard with ergonomic angles\". Text on tablet screen reads exactly: \"Tenting angle: 12° / Module gap: 2.1 cm / Scan: READY\nRotation: 15° vertical offset. Thumb cluster: adjustable.\nHex tool adjusts module gap and tent. Measurement shown in mm.\". Text on configuration card reads exactly: \"ErgoPreset 9: 30° tenting, 0° tilt, low actuation. Warranty: 2-year coverage on switches and electronics.\nKeys: 74. Hotswap switches. Connectivity: USB-C and RF.\nSet-to mode: Use hex tool to match your shoulder width and forearm angle. Gap 1-5 cm, tent 0-30°. Electrical contacts hidden under magnetic cover. Charge lasts 60 days.\". The designer turns the hex tool to change the angle between the two keyboard halves. As the writer types, the designer points to the tablet screen, then lifts the keyboard to show the badge to the camera. The writer continues typing while the designer reads the configuration card aloud.\n"
+    "prompt": "A bright studio workspace features an ergonomic split keyboard with two angled halves and a central module. A designer uses a small hex tool to adjust the key module positions, while a writer sits across and types a long passage. The keyboard base has an engraved badge. A tablet mounted on a stand shows a layout diagram of the keyboard with annotations and a measurement readout. On the desk, a configuration card lists the keyboard's ergonomic settings and warranty details. Text on keyboard badge (engraved) reads exactly: \"SPLITFORM PRO\nAdjustable split keyboard with ergonomic angles\". Text on tablet screen reads exactly: \"Tenting angle: 12° / Module gap: 2.1 cm / Scan: READY\nRotation: 15° vertical offset. Thumb cluster: adjustable.\nHex tool adjusts module gap and tent. Measurement shown in mm.\". Text on configuration card reads exactly: \"ErgoPreset 9: 30° tenting, 0° tilt, low actuation. Warranty: 2-year coverage on switches and electronics.\nKeys: 74. Hotswap switches. Connectivity: USB-C and RF.\nSet-to mode: Use hex tool to match your shoulder width and forearm angle. Gap 1-5 cm, tent 0-30°. Electrical contacts hidden under magnetic cover. Charge lasts 60 days.\". The designer turns the hex tool to change the angle between the two keyboard halves. As the writer types, the designer points to the tablet screen, then lifts the keyboard to show the badge to the camera. The writer continues typing while the designer reads the configuration card aloud.\n",
+    "references": []
   },
   {
     "id": "cassette",
@@ -231,7 +268,8 @@
         "proxyPoster": "assets/cassette-harness-proxy.webp"
       }
     },
-    "prompt": "Two old friends sit at a kitchen table with a cassette deck, a typewritten liner note, an open spiral notebook full of song titles, a faded postcard, and a newer index card. A half-empty mug and a pen lie between them; the deck door is open and a cassette sits on the table. Text on typewritten J-card liner note reads exactly: \"Lake House, 1994. The lake kept every wrong turn. You hid the oars because you were not ready to leave. I called it a lie, so you mailed me the date I refused. Play side B loud. The hiss is the water we almost lost.\". Text on handwritten tracklist in spiral notebook reads exactly: \"Side A: Salt on the Porch — we cracked the porch light; The Bee Line; Lantern Logic. Side B: Almost-Float; The Postcard That Lied — because the date was wrong.\". Text on faded postcard reads exactly: \"August 1 — I hid the oars. Not gone. Love, Lena\". Text on new index-card note reads exactly: \"Found the oars under the porch. The card was sent July 30 but dated Aug. 1.\". Mira turns the postcard over and taps the postmark, then slides the index card to Lena. Lena reads it, compares the tracklist's last song title with the postcard, and pencils the true postmark date onto the back of the postcard. The cassette begins to play, and the two friends lean toward the speaker without speaking.\n"
+    "prompt": "Two old friends sit at a kitchen table with a cassette deck, a typewritten liner note, an open spiral notebook full of song titles, a faded postcard, and a newer index card. A half-empty mug and a pen lie between them; the deck door is open and a cassette sits on the table. Text on typewritten J-card liner note reads exactly: \"Lake House, 1994. The lake kept every wrong turn. You hid the oars because you were not ready to leave. I called it a lie, so you mailed me the date I refused. Play side B loud. The hiss is the water we almost lost.\". Text on handwritten tracklist in spiral notebook reads exactly: \"Side A: Salt on the Porch — we cracked the porch light; The Bee Line; Lantern Logic. Side B: Almost-Float; The Postcard That Lied — because the date was wrong.\". Text on faded postcard reads exactly: \"August 1 — I hid the oars. Not gone. Love, Lena\". Text on new index-card note reads exactly: \"Found the oars under the porch. The card was sent July 30 but dated Aug. 1.\". Mira turns the postcard over and taps the postmark, then slides the index card to Lena. Lena reads it, compares the tracklist's last song title with the postcard, and pencils the true postmark date onto the back of the postcard. The cassette begins to play, and the two friends lean toward the speaker without speaking.\n",
+    "references": []
   },
   {
     "id": "plaza",
@@ -257,25 +295,13 @@
         "proxyPoster": "assets/plaza-harness-proxy.webp"
       }
     },
-    "prompt": "A vast futuristic transit plaza, glowing circular portal structure, holographic sign to the left, sleek monorail track overhead, reflective ground, open sci-fi architecture, clear landmarks\n\nExecute one continuous 30-second camera trajectory. Initial camera position is the origin; x is initial camera-right, z is initial camera-forward, y is down. Keep camera height fixed. Positive yaw turns right. These are camera motions. Use the following time-indexed camera poses, interpolating smoothly. Preserve scene layout and object identities during departure and return.\n0.0s: x=0.000, z=0.000, yaw=0.00 deg\n0.5s: x=0.000, z=0.267, yaw=0.00 deg\n1.0s: x=0.000, z=0.533, yaw=0.00 deg\n1.5s: x=0.000, z=0.800, yaw=0.00 deg\n2.0s: x=0.000, z=1.117, yaw=0.00 deg\n2.5s: x=0.000, z=1.383, yaw=0.00 deg\n3.0s: x=0.000, z=1.650, yaw=0.00 deg\n3.5s: x=0.000, z=1.917, yaw=0.00 deg\n4.0s: x=0.000, z=2.233, yaw=0.00 deg\n4.5s: x=0.000, z=2.300, yaw=0.00 deg\n5.0s: x=0.000, z=2.033, yaw=0.00 deg\n5.5s: x=0.000, z=1.750, yaw=0.00 deg\n6.0s: x=0.000, z=1.450, yaw=0.00 deg\n6.5s: x=0.000, z=1.183, yaw=0.00 deg\n7.0s: x=0.000, z=0.917, yaw=0.00 deg\n7.5s: x=0.000, z=0.600, yaw=0.00 deg\n8.0s: x=0.000, z=0.333, yaw=0.00 deg\n8.5s: x=0.000, z=0.067, yaw=0.00 deg\n9.0s: x=0.000, z=0.000, yaw=-4.00 deg\n9.5s: x=0.000, z=0.000, yaw=-10.33 deg\n10.0s: x=0.000, z=0.000, yaw=-15.67 deg\n10.5s: x=0.000, z=0.000, yaw=-21.00 deg\n11.0s: x=0.000, z=0.000, yaw=-26.33 deg\n11.5s: x=0.000, z=0.000, yaw=-32.67 deg\n12.0s: x=0.000, z=0.000, yaw=-38.00 deg\n12.5s: x=0.000, z=0.000, yaw=-43.33 deg\n13.0s: x=0.000, z=0.000, yaw=-47.00 deg\n13.5s: x=0.000, z=0.000, yaw=-41.00 deg\n14.0s: x=0.000, z=0.000, yaw=-35.67 deg\n14.5s: x=0.000, z=0.000, yaw=-30.33 deg\n15.0s: x=0.000, z=0.000, yaw=-24.00 deg\n15.5s: x=0.000, z=0.000, yaw=-18.67 deg\n16.0s: x=0.000, z=0.000, yaw=-13.33 deg\n16.5s: x=0.000, z=0.000, yaw=-8.00 deg\n17.0s: x=0.000, z=0.000, yaw=-1.67 deg\n17.5s: x=0.000, z=0.000, yaw=3.67 deg\n18.0s: x=0.000, z=0.000, yaw=9.00 deg\n18.5s: x=0.000, z=0.000, yaw=14.33 deg\n19.0s: x=0.000, z=0.000, yaw=20.67 deg\n19.5s: x=0.000, z=0.000, yaw=26.00 deg\n20.0s: x=0.000, z=0.000, yaw=31.33 deg\n20.5s: x=0.000, z=0.000, yaw=37.00 deg\n21.0s: x=0.000, z=0.000, yaw=43.00 deg\n21.5s: x=0.000, z=0.000, yaw=47.00 deg\n22.0s: x=0.000, z=0.000, yaw=42.33 deg\n22.5s: x=0.000, z=0.000, yaw=36.00 deg\n23.0s: x=0.000, z=0.000, yaw=30.67 deg\n23.5s: x=0.000, z=0.000, yaw=25.33 deg\n24.0s: x=0.000, z=0.000, yaw=20.00 deg\n24.5s: x=0.000, z=0.000, yaw=13.67 deg\n25.0s: x=0.000, z=0.000, yaw=8.33 deg\n25.5s: x=0.000, z=0.000, yaw=3.00 deg\n26.0s: x=0.000, z=0.000, yaw=-2.33 deg\n26.5s: x=0.000, z=0.000, yaw=-8.67 deg\n27.0s: x=0.000, z=0.000, yaw=-14.00 deg\n27.5s: x=0.000, z=0.000, yaw=-19.33 deg\n28.0s: x=0.000, z=0.000, yaw=-25.00 deg\n28.5s: x=0.000, z=0.000, yaw=-31.00 deg\n29.0s: x=0.000, z=0.000, yaw=-36.33 deg\n29.5s: x=0.000, z=0.000, yaw=-41.67 deg\n30.0s: x=0.000, z=0.000, yaw=-48.00 deg\n\nGenerate one complete 30-second video, 720p, 16:9, without generated audio. Use the supplied initial image.\n"
-  },
-  {
-    "id": "long-runner",
-    "caseId": "I2AV_024",
-    "kicker": "Runner",
-    "title": "A runner and a car across five events · 71 seconds",
-    "description": "Follow the athlete from the starting blocks to the roadside meeting. Compare his appearance and clothing across shots.",
-    "prompt": "一部电影质感的汽车品牌宣传片。开场，一名男性运动员在红色跑道上呈起跑预备姿势，画面充满张力。随着他爆发性地冲出，镜头以动态跟拍和慢动作捕捉其充满力量的跑动姿态。接着，一辆线条流畅的现代电动汽车无声地出现在旁边的公路上，与他并驾齐驱，车内是一位干练的女性驾驶员。核心互动发生：运动员向汽车投去挑战的微笑并加速，女驾驶员则心领神会地用加速来回应，形成一场人与机器的友好竞赛。最终，运动员在终点放慢脚步，而汽车已在前方等候。他跑到副驾旁，车窗滑下，两人相视一笑，充满默契。全片光影考究，色调冷峻而高级，运镜流畅，旨在传递极致性能与人机共鸣的品牌理念。",
-    "videos": {
-      "direct": {
-        "final": "assets/long-runner-direct.mp4",
-        "poster": "assets/long-runner-direct.webp"
-      },
-      "harness": {
-        "final": "assets/long-runner-harness.mp4",
-        "poster": "assets/long-runner-harness.webp"
+    "prompt": "A vast futuristic transit plaza, glowing circular portal structure, holographic sign to the left, sleek monorail track overhead, reflective ground, open sci-fi architecture, clear landmarks\n\nExecute one continuous 30-second camera trajectory. Initial camera position is the origin; x is initial camera-right, z is initial camera-forward, y is down. Keep camera height fixed. Positive yaw turns right. These are camera motions. Use the following time-indexed camera poses, interpolating smoothly. Preserve scene layout and object identities during departure and return.\n0.0s: x=0.000, z=0.000, yaw=0.00 deg\n0.5s: x=0.000, z=0.267, yaw=0.00 deg\n1.0s: x=0.000, z=0.533, yaw=0.00 deg\n1.5s: x=0.000, z=0.800, yaw=0.00 deg\n2.0s: x=0.000, z=1.117, yaw=0.00 deg\n2.5s: x=0.000, z=1.383, yaw=0.00 deg\n3.0s: x=0.000, z=1.650, yaw=0.00 deg\n3.5s: x=0.000, z=1.917, yaw=0.00 deg\n4.0s: x=0.000, z=2.233, yaw=0.00 deg\n4.5s: x=0.000, z=2.300, yaw=0.00 deg\n5.0s: x=0.000, z=2.033, yaw=0.00 deg\n5.5s: x=0.000, z=1.750, yaw=0.00 deg\n6.0s: x=0.000, z=1.450, yaw=0.00 deg\n6.5s: x=0.000, z=1.183, yaw=0.00 deg\n7.0s: x=0.000, z=0.917, yaw=0.00 deg\n7.5s: x=0.000, z=0.600, yaw=0.00 deg\n8.0s: x=0.000, z=0.333, yaw=0.00 deg\n8.5s: x=0.000, z=0.067, yaw=0.00 deg\n9.0s: x=0.000, z=0.000, yaw=-4.00 deg\n9.5s: x=0.000, z=0.000, yaw=-10.33 deg\n10.0s: x=0.000, z=0.000, yaw=-15.67 deg\n10.5s: x=0.000, z=0.000, yaw=-21.00 deg\n11.0s: x=0.000, z=0.000, yaw=-26.33 deg\n11.5s: x=0.000, z=0.000, yaw=-32.67 deg\n12.0s: x=0.000, z=0.000, yaw=-38.00 deg\n12.5s: x=0.000, z=0.000, yaw=-43.33 deg\n13.0s: x=0.000, z=0.000, yaw=-47.00 deg\n13.5s: x=0.000, z=0.000, yaw=-41.00 deg\n14.0s: x=0.000, z=0.000, yaw=-35.67 deg\n14.5s: x=0.000, z=0.000, yaw=-30.33 deg\n15.0s: x=0.000, z=0.000, yaw=-24.00 deg\n15.5s: x=0.000, z=0.000, yaw=-18.67 deg\n16.0s: x=0.000, z=0.000, yaw=-13.33 deg\n16.5s: x=0.000, z=0.000, yaw=-8.00 deg\n17.0s: x=0.000, z=0.000, yaw=-1.67 deg\n17.5s: x=0.000, z=0.000, yaw=3.67 deg\n18.0s: x=0.000, z=0.000, yaw=9.00 deg\n18.5s: x=0.000, z=0.000, yaw=14.33 deg\n19.0s: x=0.000, z=0.000, yaw=20.67 deg\n19.5s: x=0.000, z=0.000, yaw=26.00 deg\n20.0s: x=0.000, z=0.000, yaw=31.33 deg\n20.5s: x=0.000, z=0.000, yaw=37.00 deg\n21.0s: x=0.000, z=0.000, yaw=43.00 deg\n21.5s: x=0.000, z=0.000, yaw=47.00 deg\n22.0s: x=0.000, z=0.000, yaw=42.33 deg\n22.5s: x=0.000, z=0.000, yaw=36.00 deg\n23.0s: x=0.000, z=0.000, yaw=30.67 deg\n23.5s: x=0.000, z=0.000, yaw=25.33 deg\n24.0s: x=0.000, z=0.000, yaw=20.00 deg\n24.5s: x=0.000, z=0.000, yaw=13.67 deg\n25.0s: x=0.000, z=0.000, yaw=8.33 deg\n25.5s: x=0.000, z=0.000, yaw=3.00 deg\n26.0s: x=0.000, z=0.000, yaw=-2.33 deg\n26.5s: x=0.000, z=0.000, yaw=-8.67 deg\n27.0s: x=0.000, z=0.000, yaw=-14.00 deg\n27.5s: x=0.000, z=0.000, yaw=-19.33 deg\n28.0s: x=0.000, z=0.000, yaw=-25.00 deg\n28.5s: x=0.000, z=0.000, yaw=-31.00 deg\n29.0s: x=0.000, z=0.000, yaw=-36.33 deg\n29.5s: x=0.000, z=0.000, yaw=-41.67 deg\n30.0s: x=0.000, z=0.000, yaw=-48.00 deg\n\nGenerate one complete 30-second video, 720p, 16:9, without generated audio. Use the supplied initial image.\n",
+    "references": [
+      {
+        "image": "assets/plaza-reference-1.png",
+        "label": "Reference image"
       }
-    }
+    ]
   },
   {
     "id": "long-park",
@@ -293,24 +319,12 @@
         "final": "assets/long-park-harness.mp4",
         "poster": "assets/long-park-harness.webp"
       }
-    }
-  },
-  {
-    "id": "long-fire",
-    "caseId": "WBench_277",
-    "kicker": "Fire rescue",
-    "title": "Breaking through a burning doorway · 20 seconds",
-    "description": "Two axe strikes, a kick, and a fire hose: follow the damage to the door and the smoke as the rescue unfolds.",
-    "prompt": "## Initial environment\nA smoke-filled apartment corridor interior. Smoke-blackened walls, a closed brown wooden door directly ahead with orange firelight seeping from underneath. A red emergency light flashing on the ceiling. Shallow water puddles on the floor reflecting flickering light. Dark, hazardous atmosphere. Behind the door, a room engulfed in flames with burning furniture and thick black smoke. A fire hose line runs along the corridor floor behind the viewer, connected to a standpipe.\n\n## Subjects\nFirst-person viewer.\n\n## Initial perspective\nFirst-person view, eye-level, looking straight ahead down the corridor at the closed door. The viewer's hands in firefighter gloves grip a fire axe in the foreground.\n\nImage1 is the original initial image. WBench navigation controls: W/S translate forward/backward; A/D strafe left/right while retaining heading; left/right (or ←/→) turn yaw left/right in place; up/down (or ↑/↓) tilt pitch up/down; stop holds position and orientation. Combine keys joined by + simultaneously. Apply each action relative to the current accumulated position and orientation. Preserve the latest state in following rounds. Do not reset to the initial state.\n\nGeneration settings: 720p, 16:9, no audio. This is generation only; do not run a judge or numerical rubric.\n\nTurn 1: type: subject_action\naction: Swing the fire axe overhead and strike the closed wooden door.\n\nTurn 2: type: subject_action\naction: Swing the axe again, splitting the door and creating a visible hole.\n\nTurn 3: type: subject_action\naction: Kick the damaged door open with one foot, and thick smoke rushes out from inside.\n\nTurn 4: type: subject_action\naction: Draw a fire hose nozzle and spray a water jet through the doorway toward the fire inside.",
-    "videos": {
-      "direct": {
-        "final": "assets/long-fire-direct.mp4",
-        "poster": "assets/long-fire-direct.webp"
-      },
-      "harness": {
-        "final": "assets/long-fire-harness.mp4",
-        "poster": "assets/long-fire-harness.webp"
+    },
+    "references": [
+      {
+        "image": "assets/long-park-reference-1.jpg",
+        "label": "Reference image"
       }
-    }
+    ]
   }
 ]
